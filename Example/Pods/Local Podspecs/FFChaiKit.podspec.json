@@ -1,6 +1,6 @@
 {
   "name": "FFChaiKit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "This is a nice kit tool FFChaiKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/daphnefisher/FFChaiKit",
@@ -13,10 +13,18 @@
   },
   "source": {
     "git": "https://github.com/daphnefisher/FFChaiKit.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "11.0"
   },
-  "source_files": "FFChaiKit/Classes/**/*"
+  "source_files": "FFChaiKit/Classes/**/*",
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "AXWebViewController": [
+
+    ]
+  }
 }

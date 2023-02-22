@@ -1,7 +1,14 @@
 #import "FaChaiWkWebViewController.h"
 #import <WebKit/WebKit.h>
-#import <Masonry.h>
-#import <AXWebViewController.h>
+
+#if __has_include("Masonry.h")
+    #import "Masonry.h"
+    #import "AXWebViewController.h"
+#else
+    #import <Masonry.h>
+    #import <AXWebViewController.h>
+#endif
+
 
 @interface NSString (WK)
 
