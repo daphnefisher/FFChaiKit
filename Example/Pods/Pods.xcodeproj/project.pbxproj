@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E1B7E6091462A3D08BB3E297314EB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		08137E6BC168E76382014E24DAEF1D4B /* FaChaiHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AD3963F4D4B22C820499E14CDABAB3 /* FaChaiHelper.m */; };
+		09B8954C64742F197F4DA0999AB25FDF /* FFChaiKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E145755232B609492CFFC0E6B75D0197 /* FFChaiKit-dummy.m */; };
+		0FB9AED3EDC685A0BDDAE45590666D33 /* Pods-FFChaiKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9E7BF05A679228E23A7BF58A4E3187 /* Pods-FFChaiKit_Example-dummy.m */; };
+		11B1639A99659D682036EB34B34B1F52 /* Pods-FFChaiKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D5E3F92C68510759AC4851BE1657DAA /* Pods-FFChaiKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D0F5C6D64CF0B9B43ADE62A12385B38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2F7FFAD6C72A9D5B613082559E97240B /* FFChaiKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69CE817A552191C1B42553EE6A5C9E4D /* FFChaiKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B044F1396EDE1390687370CE65A322F /* FaChaiWkWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 88C5DB3919F5003B6BC1C4F3263A65F3 /* FaChaiWkWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		616A0B5A5C8AD3FDACFA25D1C0142943 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		75C4621E19965C1C0FB58119A9E60272 /* Pods-FFChaiKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9EDD52C92F7E8703EE7875A791C656 /* Pods-FFChaiKit_Tests-dummy.m */; };
+		9EFF0FEEFD3B857A732EA9E9F9A483BF /* FaChaiWkWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A63F12F2B01F3A60208428DB9BC2B579 /* FaChaiWkWebViewController.m */; };
+		CC43173FD203F4B372486C298E7975D2 /* Pods-FFChaiKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA4725A29ED50AA005691A7D1E0EE10D /* Pods-FFChaiKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5680EA1B8D7D876EFCF4B86C8F5AE14 /* FaChaiHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = A055D46862EDBC03EB0DEFBD49AB6995 /* FaChaiHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00C36C3E8E3F4360181C29F0F64F3F37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22CC5FC002E5F67072768160E182B154;
+			remoteInfo = "Pods-FFChaiKit_Example";
+		};
+		51DA635A1A85ACF1EA0BA07B5614CFA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC1D87EA590294EA9BED364023CC44D;
+			remoteInfo = FFChaiKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BEA7A7F3F31DD3C33119CC4B8FF9524 /* Pods-FFChaiKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FFChaiKit_Example"; path = Pods_FFChaiKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10AD3963F4D4B22C820499E14CDABAB3 /* FaChaiHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FaChaiHelper.m; path = FFChaiKit/Classes/FaChaiHelper.m; sourceTree = "<group>"; };
+		149F3A758BEBD394132EFBE7E4025879 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1ECE1874AB6D7CD457A88A33761D6095 /* Pods-FFChaiKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFChaiKit_Example-Info.plist"; sourceTree = "<group>"; };
+		2A5EE249C377E405FB116639C9E03F5C /* Pods-FFChaiKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FFChaiKit_Example.modulemap"; sourceTree = "<group>"; };
+		2D0CEEB23A49E79DF39FE6C1BB98874B /* FFChaiKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFChaiKit.release.xcconfig; sourceTree = "<group>"; };
+		2D5E3F92C68510759AC4851BE1657DAA /* Pods-FFChaiKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FFChaiKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2EE43A3FDBECF5612AF4E0D6B7171FBA /* FFChaiKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFChaiKit-prefix.pch"; sourceTree = "<group>"; };
+		35E6C0517D0C923B42F957F921532119 /* Pods-FFChaiKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFChaiKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		360A30CF9CA749BCC5361E6146C1318C /* Pods-FFChaiKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFChaiKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		393FB2AE2862E258527DBB736EDECADB /* Pods-FFChaiKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFChaiKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E9EDD52C92F7E8703EE7875A791C656 /* Pods-FFChaiKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FFChaiKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		5CFE9832EE45D34360BA18033CA57199 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5F9E7BF05A679228E23A7BF58A4E3187 /* Pods-FFChaiKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FFChaiKit_Example-dummy.m"; sourceTree = "<group>"; };
+		66787254387CB6C2F665886401E94950 /* FFChaiKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FFChaiKit; path = FFChaiKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69CE817A552191C1B42553EE6A5C9E4D /* FFChaiKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFChaiKit-umbrella.h"; sourceTree = "<group>"; };
+		70569E1D9015EA6A9751231C0900637D /* Pods-FFChaiKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FFChaiKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		88C5DB3919F5003B6BC1C4F3263A65F3 /* FaChaiWkWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FaChaiWkWebViewController.h; path = FFChaiKit/Classes/FaChaiWkWebViewController.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A055D46862EDBC03EB0DEFBD49AB6995 /* FaChaiHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FaChaiHelper.h; path = FFChaiKit/Classes/FaChaiHelper.h; sourceTree = "<group>"; };
+		A63F12F2B01F3A60208428DB9BC2B579 /* FaChaiWkWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FaChaiWkWebViewController.m; path = FFChaiKit/Classes/FaChaiWkWebViewController.m; sourceTree = "<group>"; };
+		A9392B175DE596FCE228E1C56D6EC287 /* Pods-FFChaiKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFChaiKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		AB1DAE4E470BB2467736C1D28948FB45 /* FFChaiKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FFChaiKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC199CC843BD5F036FC941FB3110C56D /* Pods-FFChaiKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FFChaiKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AD31314B69318BB86A76D62AA1AE6498 /* FFChaiKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FFChaiKit-Info.plist"; sourceTree = "<group>"; };
+		B7283CC1B6ADC45A76974A58A504E098 /* Pods-FFChaiKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFChaiKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C175154C56307E6F9BEF38E76315DF80 /* Pods-FFChaiKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FFChaiKit_Tests"; path = Pods_FFChaiKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8E84EF22FFE1B510DF03FCEC43E57AB /* Pods-FFChaiKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFChaiKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CA4725A29ED50AA005691A7D1E0EE10D /* Pods-FFChaiKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FFChaiKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		E145755232B609492CFFC0E6B75D0197 /* FFChaiKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FFChaiKit-dummy.m"; sourceTree = "<group>"; };
+		E2217EEB3A2082AA08A701E2BC0B6F39 /* Pods-FFChaiKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFChaiKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F1D686ECC92F364550569037CA70A81C /* FFChaiKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFChaiKit.debug.xcconfig; sourceTree = "<group>"; };
+		F622200E76E93EC108D73EBD14527556 /* Pods-FFChaiKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FFChaiKit_Tests.modulemap"; sourceTree = "<group>"; };
+		F7092830B39A7998E5DD3FACB8C22A80 /* FFChaiKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FFChaiKit.modulemap; sourceTree = "<group>"; };
+		FFA5E2370C15A45F35134419B8AB322E /* Pods-FFChaiKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FFChaiKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D698C31977A454CB9D08CECE1F4C43C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E1B7E6091462A3D08BB3E297314EB2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1481FDAF9C154355E63C200604DB0977 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616A0B5A5C8AD3FDACFA25D1C0142943 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF543A1BEB017543FDF4F5C5F2036EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0F5C6D64CF0B9B43ADE62A12385B38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		073BA8C5BFEBD7C939B9FBE951D71C9E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7092830B39A7998E5DD3FACB8C22A80 /* FFChaiKit.modulemap */,
+				E145755232B609492CFFC0E6B75D0197 /* FFChaiKit-dummy.m */,
+				AD31314B69318BB86A76D62AA1AE6498 /* FFChaiKit-Info.plist */,
+				2EE43A3FDBECF5612AF4E0D6B7171FBA /* FFChaiKit-prefix.pch */,
+				69CE817A552191C1B42553EE6A5C9E4D /* FFChaiKit-umbrella.h */,
+				F1D686ECC92F364550569037CA70A81C /* FFChaiKit.debug.xcconfig */,
+				2D0CEEB23A49E79DF39FE6C1BB98874B /* FFChaiKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FFChaiKit";
+			sourceTree = "<group>";
+		};
+		143715242FDF17908D84C32073CF71C5 /* FFChaiKit */ = {
+			isa = PBXGroup;
+			children = (
+				A055D46862EDBC03EB0DEFBD49AB6995 /* FaChaiHelper.h */,
+				10AD3963F4D4B22C820499E14CDABAB3 /* FaChaiHelper.m */,
+				88C5DB3919F5003B6BC1C4F3263A65F3 /* FaChaiWkWebViewController.h */,
+				A63F12F2B01F3A60208428DB9BC2B579 /* FaChaiWkWebViewController.m */,
+				D7888E8C3295F23DB3D8A6F9C27E2836 /* Pod */,
+				073BA8C5BFEBD7C939B9FBE951D71C9E /* Support Files */,
+			);
+			name = FFChaiKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4755D30C4AEB101EA6FAB62F5E75D23F /* Pods-FFChaiKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F622200E76E93EC108D73EBD14527556 /* Pods-FFChaiKit_Tests.modulemap */,
+				70569E1D9015EA6A9751231C0900637D /* Pods-FFChaiKit_Tests-acknowledgements.markdown */,
+				B7283CC1B6ADC45A76974A58A504E098 /* Pods-FFChaiKit_Tests-acknowledgements.plist */,
+				3E9EDD52C92F7E8703EE7875A791C656 /* Pods-FFChaiKit_Tests-dummy.m */,
+				A9392B175DE596FCE228E1C56D6EC287 /* Pods-FFChaiKit_Tests-Info.plist */,
+				2D5E3F92C68510759AC4851BE1657DAA /* Pods-FFChaiKit_Tests-umbrella.h */,
+				35E6C0517D0C923B42F957F921532119 /* Pods-FFChaiKit_Tests.debug.xcconfig */,
+				C8E84EF22FFE1B510DF03FCEC43E57AB /* Pods-FFChaiKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-FFChaiKit_Tests";
+			path = "Target Support Files/Pods-FFChaiKit_Tests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6BC56BFE08CE3234F76F84E1E1DC1FA4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				97C64C039DD76F556DB8476E649336AF /* Pods-FFChaiKit_Example */,
+				4755D30C4AEB101EA6FAB62F5E75D23F /* Pods-FFChaiKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		97C64C039DD76F556DB8476E649336AF /* Pods-FFChaiKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2A5EE249C377E405FB116639C9E03F5C /* Pods-FFChaiKit_Example.modulemap */,
+				FFA5E2370C15A45F35134419B8AB322E /* Pods-FFChaiKit_Example-acknowledgements.markdown */,
+				393FB2AE2862E258527DBB736EDECADB /* Pods-FFChaiKit_Example-acknowledgements.plist */,
+				5F9E7BF05A679228E23A7BF58A4E3187 /* Pods-FFChaiKit_Example-dummy.m */,
+				AC199CC843BD5F036FC941FB3110C56D /* Pods-FFChaiKit_Example-frameworks.sh */,
+				1ECE1874AB6D7CD457A88A33761D6095 /* Pods-FFChaiKit_Example-Info.plist */,
+				CA4725A29ED50AA005691A7D1E0EE10D /* Pods-FFChaiKit_Example-umbrella.h */,
+				360A30CF9CA749BCC5361E6146C1318C /* Pods-FFChaiKit_Example.debug.xcconfig */,
+				E2217EEB3A2082AA08A701E2BC0B6F39 /* Pods-FFChaiKit_Example.release.xcconfig */,
+			);
+			name = "Pods-FFChaiKit_Example";
+			path = "Target Support Files/Pods-FFChaiKit_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				FB41F4EC463855F3726E51DE789040AF /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E158745CDDB4A6BB42B590A0759E2305 /* Products */,
+				6BC56BFE08CE3234F76F84E1E1DC1FA4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7888E8C3295F23DB3D8A6F9C27E2836 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AB1DAE4E470BB2467736C1D28948FB45 /* FFChaiKit.podspec */,
+				5CFE9832EE45D34360BA18033CA57199 /* LICENSE */,
+				149F3A758BEBD394132EFBE7E4025879 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E158745CDDB4A6BB42B590A0759E2305 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66787254387CB6C2F665886401E94950 /* FFChaiKit */,
+				0BEA7A7F3F31DD3C33119CC4B8FF9524 /* Pods-FFChaiKit_Example */,
+				C175154C56307E6F9BEF38E76315DF80 /* Pods-FFChaiKit_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB41F4EC463855F3726E51DE789040AF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				143715242FDF17908D84C32073CF71C5 /* FFChaiKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		22086C210F3F6670C20C8A57A3C711F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B1639A99659D682036EB34B34B1F52 /* Pods-FFChaiKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3704EDBC11477C41AD16884C80F553 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5680EA1B8D7D876EFCF4B86C8F5AE14 /* FaChaiHelper.h in Headers */,
+				3B044F1396EDE1390687370CE65A322F /* FaChaiWkWebViewController.h in Headers */,
+				2F7FFAD6C72A9D5B613082559E97240B /* FFChaiKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B595AED1F31BD7E33E3DCFF739C6C739 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC43173FD203F4B372486C298E7975D2 /* Pods-FFChaiKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		22CC5FC002E5F67072768160E182B154 /* Pods-FFChaiKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFFBC5CAADB2CD0B4D825FD857B0399E /* Build configuration list for PBXNativeTarget "Pods-FFChaiKit_Example" */;
+			buildPhases = (
+				B595AED1F31BD7E33E3DCFF739C6C739 /* Headers */,
+				71D5E5D920D7069FFD7793B1AACCB7C4 /* Sources */,
+				CEF543A1BEB017543FDF4F5C5F2036EF /* Frameworks */,
+				AA60764934E69AD3A4D370F0FD014BCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C33E090EE2302DE17C0ADC0106E8A4A /* PBXTargetDependency */,
+			);
+			name = "Pods-FFChaiKit_Example";
+			productName = Pods_FFChaiKit_Example;
+			productReference = 0BEA7A7F3F31DD3C33119CC4B8FF9524 /* Pods-FFChaiKit_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		501BEC2C5EA51EAD29066FCA65ADBC01 /* Pods-FFChaiKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0AACD4714573489AC4FF4F447592A83 /* Build configuration list for PBXNativeTarget "Pods-FFChaiKit_Tests" */;
+			buildPhases = (
+				22086C210F3F6670C20C8A57A3C711F8 /* Headers */,
+				0B3F0DF2042F54D25E108917486783EA /* Sources */,
+				1481FDAF9C154355E63C200604DB0977 /* Frameworks */,
+				D036D2069DFBEF390C69423C24100FA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B4F52FEDECF3BA000BB619CC0E3B5C6 /* PBXTargetDependency */,
+			);
+			name = "Pods-FFChaiKit_Tests";
+			productName = Pods_FFChaiKit_Tests;
+			productReference = C175154C56307E6F9BEF38E76315DF80 /* Pods-FFChaiKit_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		8DC1D87EA590294EA9BED364023CC44D /* FFChaiKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82EF5D0F00D6A57589FD17C15E6229AF /* Build configuration list for PBXNativeTarget "FFChaiKit" */;
+			buildPhases = (
+				3B3704EDBC11477C41AD16884C80F553 /* Headers */,
+				A5023BEE04D23093E00ADC74CF26EF78 /* Sources */,
+				0D698C31977A454CB9D08CECE1F4C43C /* Frameworks */,
+				6749307931BD0E44F94D0903861DA5A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FFChaiKit;
+			productName = FFChaiKit;
+			productReference = 66787254387CB6C2F665886401E94950 /* FFChaiKit */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E158745CDDB4A6BB42B590A0759E2305 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DC1D87EA590294EA9BED364023CC44D /* FFChaiKit */,
+				22CC5FC002E5F67072768160E182B154 /* Pods-FFChaiKit_Example */,
+				501BEC2C5EA51EAD29066FCA65ADBC01 /* Pods-FFChaiKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6749307931BD0E44F94D0903861DA5A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA60764934E69AD3A4D370F0FD014BCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D036D2069DFBEF390C69423C24100FA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B3F0DF2042F54D25E108917486783EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C4621E19965C1C0FB58119A9E60272 /* Pods-FFChaiKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71D5E5D920D7069FFD7793B1AACCB7C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FB9AED3EDC685A0BDDAE45590666D33 /* Pods-FFChaiKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5023BEE04D23093E00ADC74CF26EF78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08137E6BC168E76382014E24DAEF1D4B /* FaChaiHelper.m in Sources */,
+				9EFF0FEEFD3B857A732EA9E9F9A483BF /* FaChaiWkWebViewController.m in Sources */,
+				09B8954C64742F197F4DA0999AB25FDF /* FFChaiKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C33E090EE2302DE17C0ADC0106E8A4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FFChaiKit;
+			target = 8DC1D87EA590294EA9BED364023CC44D /* FFChaiKit */;
+			targetProxy = 51DA635A1A85ACF1EA0BA07B5614CFA9 /* PBXContainerItemProxy */;
+		};
+		9B4F52FEDECF3BA000BB619CC0E3B5C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FFChaiKit_Example";
+			target = 22CC5FC002E5F67072768160E182B154 /* Pods-FFChaiKit_Example */;
+			targetProxy = 00C36C3E8E3F4360181C29F0F64F3F37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BD654A3297F10D6496F3B321CFE78BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8E84EF22FFE1B510DF03FCEC43E57AB /* Pods-FFChaiKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FFChaiKit_Tests/Pods-FFChaiKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FFChaiKit_Tests/Pods-FFChaiKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7299223627C046B85B807E107056A0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 360A30CF9CA749BCC5361E6146C1318C /* Pods-FFChaiKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FFChaiKit_Example/Pods-FFChaiKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FFChaiKit_Example/Pods-FFChaiKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D0772DE601B9F58725634746C04012E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35E6C0517D0C923B42F957F921532119 /* Pods-FFChaiKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FFChaiKit_Tests/Pods-FFChaiKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FFChaiKit_Tests/Pods-FFChaiKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E554CF2B1A8B3C1FF4AEEB7F4643D3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1D686ECC92F364550569037CA70A81C /* FFChaiKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FFChaiKit/FFChaiKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FFChaiKit/FFChaiKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FFChaiKit/FFChaiKit.modulemap";
+				PRODUCT_MODULE_NAME = FFChaiKit;
+				PRODUCT_NAME = FFChaiKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B52931BC2A0D4ABEAECCB09D5B8BA0A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D0CEEB23A49E79DF39FE6C1BB98874B /* FFChaiKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FFChaiKit/FFChaiKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FFChaiKit/FFChaiKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FFChaiKit/FFChaiKit.modulemap";
+				PRODUCT_MODULE_NAME = FFChaiKit;
+				PRODUCT_NAME = FFChaiKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DA0E9B8F4E36BBAB7E98158B6ABF766B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2217EEB3A2082AA08A701E2BC0B6F39 /* Pods-FFChaiKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FFChaiKit_Example/Pods-FFChaiKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FFChaiKit_Example/Pods-FFChaiKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82EF5D0F00D6A57589FD17C15E6229AF /* Build configuration list for PBXNativeTarget "FFChaiKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E554CF2B1A8B3C1FF4AEEB7F4643D3F /* Debug */,
+				B52931BC2A0D4ABEAECCB09D5B8BA0A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFFBC5CAADB2CD0B4D825FD857B0399E /* Build configuration list for PBXNativeTarget "Pods-FFChaiKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7299223627C046B85B807E107056A0E1 /* Debug */,
+				DA0E9B8F4E36BBAB7E98158B6ABF766B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0AACD4714573489AC4FF4F447592A83 /* Build configuration list for PBXNativeTarget "Pods-FFChaiKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D0772DE601B9F58725634746C04012E /* Debug */,
+				0BD654A3297F10D6496F3B321CFE78BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

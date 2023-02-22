@@ -1,0 +1,16 @@
+PODS:
+  - FFChaiKit (0.0.1)
+
+DEPENDENCIES:
+  - FFChaiKit (from `../`)
+
+EXTERNAL SOURCES:
+  FFChaiKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FFChaiKit: 7ccfda9a57f976047dfcb15093892da07a5f5b9a
+
+PODFILE CHECKSUM: 2698cbac4f2f687638af4f2c436b62c24a3318db
+
+COCOAPODS: 1.11.3

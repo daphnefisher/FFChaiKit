@@ -1,0 +1,6 @@
+framework module FFChaiKit {
+  umbrella header "FFChaiKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
